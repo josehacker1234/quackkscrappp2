@@ -97,7 +97,7 @@ async def my_event_handler(m):
     await client.send_message(
         PeerChannel(SEND_ID),
         f"""
-● > __ 𝙌𝙪𝙖𝙘𝙠'𝙨 [ 𝙎𝙘𝙧𝙖𝙥𝙥𝙚𝙧 ] V2.5 [ S : ```{cc[:6]}``` ] _____
+● > __ 𝙌𝙪𝙖𝙘𝙠'𝙨 [ 𝙎𝙘𝙧𝙖𝙥𝙥𝙚𝙧 ] V2.6 [ S : ```{cc[:6]}``` ] _____
 
 ·͙⁺˚*•̩̩͙✩•̩̩͙*˚⁺‧͙⁺˚*•̩̩͙✩•̩̩͙*˚⁺‧͙⁺˚*•̩̩͙✩•̩̩͙*˚⁺‧͙
 𝘾𝘼𝙍𝘿 : `{cc}|{mes}|{ano}|{cvv}`
@@ -122,7 +122,7 @@ async def my_event_handler(m):
     # print(telethon.utils.get_input_channel(emt))
     # print(telethon.utils.resolve_id(emt))
     await m.reply(file='cards.txt')
-    time.sleep(4)
+    time.sleep(3)
 
 
 client.start()
